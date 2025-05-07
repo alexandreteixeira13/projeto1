@@ -19,10 +19,20 @@ namespace projeto1.Controllers
         }
 
 
+
+
+
         public IActionResult Login()
         {
             return View();
         }
+
+        [HttpPost]
+        public IActionResult Login(string email, string senha)
+        {
+            return View();
+        }
+        
 
         public IActionResult Contato() 
         { 
